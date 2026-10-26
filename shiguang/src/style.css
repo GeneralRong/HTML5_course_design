@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body {
+  font-family: -apple-system, 'PingFang SC', 'HarmonyOS Sans SC', 'Microsoft YaHei', sans-serif;
+  background: #f7f8fa;
+  color: #323233;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  display: block;
+}
+
+.page {
+  min-height: 100%;
+  padding-bottom: 66px;
+}
+
+.page--nav {
+  padding-top: 46px;
+}
